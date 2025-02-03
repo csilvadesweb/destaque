@@ -5,74 +5,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Destaque - C.Silva</title>
-    <link rel="stylesheet" href="destaque.css">
-    <script src="destaque.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
 
     <!-- Cabeçalho -->
     <header>
-        <div class="logo">
-            <h1>Projeto Destaque</h1>
-        </div>
+        <h1>Projeto Destaque</h1>
         <nav>
             <ul>
-                <li><a href="#about">Sobre</a></li>
-                <li><a href="#features">Recursos</a></li>
-                <li><a href="#contact">Contato</a></li>
+                <li><a href="#sobre">Sobre o Projeto</a></li>
+                <li><a href="#funcionalidades">Funcionalidades</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Seção de Boas-Vindas -->
-    <section id="welcome">
-        <div class="welcome-content">
-            <h2>Bem-vindo ao Projeto Destaque!</h2>
-            <p>Um projeto inovador que mostra as habilidades de C.Silva em desenvolvimento web moderno e responsivo.</p>
-        </div>
-    </section>
-
-    <!-- Sobre o Projeto -->
-    <section id="about">
+    <!-- Seção Sobre o Projeto -->
+    <section id="sobre">
         <h2>Sobre o Projeto</h2>
-        <p>Este projeto foi desenvolvido com a intenção de demonstrar uma combinação de design interativo, animações e funcionalidades para um portfólio profissional.</p>
+        <p>Este é o projeto destaque que mostra minhas habilidades de desenvolvimento web. Ele inclui recursos modernos e interatividade com o usuário.</p>
     </section>
 
-    <!-- Recursos -->
-    <section id="features">
-        <h2>Recursos do Projeto</h2>
-        <div class="feature-card">
-            <h3>Design Responsivo</h3>
-            <p>O projeto adapta-se perfeitamente a qualquer dispositivo, seja desktop, tablet ou celular.</p>
-        </div>
-        <div class="feature-card">
-            <h3>Animações Interativas</h3>
-            <p>Utilizamos animações CSS3 para tornar o site visualmente envolvente.</p>
-        </div>
-        <div class="feature-card">
-            <h3>Integração de API</h3>
-            <p>Aqui demonstramos integração com uma API externa para exibir dados dinâmicos.</p>
-        </div>
-    </section>
-
-    <!-- Galeria de Imagens -->
-    <section id="gallery">
-        <h2>Galeria</h2>
-        <div class="gallery-grid">
-            <img src="image1.jpg" alt="Imagem 1">
-            <img src="image2.jpg" alt="Imagem 2">
-            <img src="image3.jpg" alt="Imagem 3">
-        </div>
+    <!-- Seção Funcionalidades -->
+    <section id="funcionalidades">
+        <h2>Funcionalidades</h2>
+        <ul>
+            <li>Design Responsivo</li>
+            <li>Interatividade com JavaScript</li>
+            <li>Integração com API (se necessário)</li>
+        </ul>
     </section>
 
     <!-- Contato -->
-    <section id="contact">
+    <section id="contato">
         <h2>Entre em Contato</h2>
-        <form id="contact-form">
-            <input type="text" id="name" name="name" placeholder="Seu nome" required>
-            <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
-            <textarea id="message" name="message" placeholder="Sua mensagem" required></textarea>
+        <form>
+            <input type="text" id="nome" placeholder="Seu Nome" required>
+            <input type="email" id="email" placeholder="Seu E-mail" required>
+            <textarea id="mensagem" placeholder="Sua Mensagem" required></textarea>
             <button type="submit">Enviar</button>
         </form>
     </section>
